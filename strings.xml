@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Jarvis</string>
+    <string name="accessibility_service_description">Jarvis Automated Gesture Hand: enables voice-commanded taps, scrolls, and navigation.</string>
+</resources>

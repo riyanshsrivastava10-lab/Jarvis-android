@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#0F172A">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⚡ JARVIS"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#38BDF8"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continuous Voice Ear &amp; Mechanical Hand"
+        android:textSize="14sp"
+        android:textColor="#94A3B8"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/accessibilityStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mechanical Hand: Checking..."
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnOpenAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Accessibility Settings"
+        android:backgroundTint="#334155"
+        android:textColor="#F8FAFC"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: Idle"
+        android:textSize="16sp"
+        android:textColor="#CBD5E1"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnToggleEar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Jarvis Ear"
+        android:backgroundTint="#0284C7"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
